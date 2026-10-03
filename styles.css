@@ -46,22 +46,6 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 /* ================================
    FOTO DE PERFIL
    ================================ */
-.profile-avatar{
-  width:110px;
-  height:110px;
-  min-width:110px;
-  min-height:110px;
-  margin:0 auto 15px;
-  border-radius:50%;
-  overflow:hidden;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:linear-gradient(135deg,var(--purple),var(--cyan));
-  border:3px solid rgba(255,255,255,.18);
-  font:700 38px Poppins;
-  position:relative;
-}
 .profile-avatar img{
   display:block;
   width:100%;
@@ -89,6 +73,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 .profile-photo-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:14px}
 .profile-photo-preview{width:140px;height:140px;border-radius:50%;overflow:hidden;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.06)}
 .profile-photo-preview img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+
 
 /* Botão para registrar uma quantidade de água personalizada */
 .custom-water-button {
